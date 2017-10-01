@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Function
+comment0.text=\ \r\n\ Function\ Class\r\n
+comment1.params=
+comment1.target=Function()
+comment1.text=\ \r\n\ Default\ Constructor\r\n
+comment2.params=f
+comment2.target=Function(java.lang.String)
+comment2.text=\ \r\n\ Normal\ Constructor\r\n
+comment3.params=f
+comment3.target=void\ setFunction(java.lang.String)
+comment3.text=\ \r\n\ setFunction\:\ Changes\ the\ function\ \r\n\ setDerivative\:\ Changes\ the\ derivative\r\n
+comment4.params=d
+comment4.target=void\ setDerivative(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getFunction()
+comment5.text=\r\n\ getFunction\:\ returns\ the\ function\ \r\n\ getDerivative\:\ returns\ the\ derivative\r\n
+comment6.params=
+comment6.target=java.lang.String\ getDerivative()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Overrides\ the\ normal\ String\ method\ for\ toString\r\n
+numComments=8

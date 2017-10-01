@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=testDerivative
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=inputFunction
+comment2.target=java.lang.String\ derive(java.lang.String)
+comment3.params=expression
+comment3.target=java.lang.String\ logic(java.lang.String)
+numComments=4

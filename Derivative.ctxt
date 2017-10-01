@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Derivative
+comment0.text=\r\n\ Derivative\ Class\r\n\ Available\ functions\ \:\r\n\ \ 1.\ Constants\r\n\ \ \ \ \ \ Available\ subfunctions\:\ decimals,\ integers,\ negatives\ \r\n\ \ \ \ \ \ exceptions\:\ negatives\ as\ primary\ expression\ (ex\:\ f\ \=\ "-1"\ will\ not\ work\ whereas\ f\ \=\ "0\ -\ 1"\ will\ )\r\n\ \ 2.\ Basic\ Variables\r\n\ \ \ \ \ \ Available\ subfunctions\:\ coefficients,\ powers,\ decimals,\ coeff\ +\ power\ combined\r\n\ \ \ \ \ \ exceptions\:\ negative\ powers\r\n\ \ 3.\ Basic\ Trigonometry\ \r\n\ \ \ \ \ \ Available\ subfunctions\:\ cos(),\ sin(),\ tan(),\ decimals,\ powers,\ coefficients,\ coeff\ +\ power\ combined\r\n\ \ \ \ \ \ exceptions\:\ negative\ powers,\ exponential\ trig\ functions\ (ex\:\ sin^2(x)\ will\ not\ work)\r\n\ \ 4.\ Basic\ Logarithms\r\n\ \ \ \ \ \ Available\ subfunctions\:\ ln(),\ log(),\ coefficients\ (limited\ --\ does\ not\ simplify)\r\n\ \ \ \ \ \ \!Does\ not\ work\!\ \:\ exponents,\ powers,\r\n\ \ 5.\ Operators\r\n\ \ \ \ \ \ Available\ subfunctions\:\ +,\ -,\ *\ \r\n\ \ \ \ \ \ note\:\ does\ not\ simplify\ values\ such\ as\ 2\ +\ 0\r\n\ \ \ \ \ \ note\:\ see\ *(multiplication)\ below\r\n\ \ 6.\ Products\r\n\ \ \ \ \ \ Available\ subfunctions\:\ unsimplified\ product\ rule,\ should\ work\ with\ all\ the\ functions\ listed\ above\ \r\n\ \ \ \ \ \ exceptions\:\ operators\r\n\ \ \ \ \ \ \ \ \ \ \!Does\ not\ work\!\ \:\ combined\ in\ an\ equation,\ powers,\ coefficients\r\n\ \ \ \ \ \ \ \ \ \ example\:\ "{[x\ +\ 1][x\ -\ 4]}"\ will\ work\ whereas\ "{[x\ +\ 1][x\ -\ 4]}\ +\ 5"\ will\ not\r\n\ \ \ \ \ \ \r\n\ \ Rules\ of\ Function\ input\ \r\n\ \ 1.\ Exponents\ should\ be\ written\ using\ the\ carat\ ("^")\ symbol\r\n\ \ \ \ \ \ example\:\ "x^2"\ \r\n\ \ \ \ \ \ note\ exceptions\:\ 1st\ and\ zeroth\ power\ exponents\ should\ be\ writted\ as\ "x"\ and\ "1"\ for\ clarity\r\n\ \ 2.\ Trigonometric\ and\ logarithmic\ functions\ should\ use\ parentheses\ to\ highlight\ the\ "x"\ value\r\n\ \ \ \ \ \ examples\:\ "tan(x)"\ and\ "2ln(x)"\r\n\ \ \ \ \ \ note\ special\ case\:\ non-natural\ logarithms\ have\ a\ later\ input\ for\ the\ base,\ do\ NOT\ include\ the\ base\ inside\ the\ function\ input\ \r\n\ \ 3.\ Fractions,\ percents\ and\ ratios\ should\ be\ converted\ to\ decimals\ prior\ to\ function\ input\r\n\ \ \ \ \ \ examples\:\ "(1/2)"\ will\ not\ work\ whereas\ "0.5"\ will\r\n\ \ 4.\ Expressions\ should\ be\ separated\ with\ space,\ operator,\ space\ \r\n\ \ \ \ \ \ examples\:\ "x+x"\ will\ not\ work\ whereas\ "x\ +\ x"\ will\r\n\ \ \ \ \ \ examples\:\ "x\ -\ x"\r\n\ \ 5.\ Negatives\ should\ be\ entered\ as\ an\ operator\ between\ two\ expressions,\ binary\ negative\ operators\ do\ not\ work\r\n\ \ \ \ \ \ examples\:\ "-4"\ will\ not\ work\ whereas\ "0\ -\ 4"\ will\ \r\n\ \ \ \ \ \ examples\:\ "1\ -\ 6x"\ and\ "6x^2\ -\ 5cos(x)"\ \r\n\ \ \ \ \ \ examples\:\ "-sin(x)"\ will\ not\ work\r\n\ \ 6.\ Multiplication\ (product\ rule)\ between\ two\ variables\ should\ be\ enclosed\ by\ sq.\ brackets[]\ instead\ of\ parentheses()\ and\ the\ entire\ operation\ must\ be\ enclosed\ by\ brackets\ {}\ instead\ of\ a\ multiplication\ operator\ *\r\n\ \ \ \ \ \ examples\:\ "(x\ +\ 5)(x-1)"\ will\ not\ work\ --\ \r\n\ \ \ \ \ \ examples\:\ "{[x\ +\ 3][sin(x)]}"\ and\ "{[x^2][2\ +\ ln(x)]}"\ will\ work\r\n\ \ \ \ \ \ \r\n\ \ Next\ Patch\r\n\ \ \ \ \ \ *\ chain\ rule\r\n\ \ \ \ \ \ *\ inverse\ trig\r\n\ \ \ \ \ \ *\ quotient\ rule\r\n\ \ \ \ \ \ *\ product\ rule\ in\ polynomial\ functions\r\n\ \ \ \ \ \ *\ negatives\ by\ themselves\r\n\ \ \ \ \ \ *\ fix\ cos\ rule\ \r\n\ \ \ \ \ \ *\ simplified\ log\ derivatives\r\n\ \ \ \ \ \ *\ negatives\ in\ general\r\n\ \ \ \ \ \ *\ rounded\ decimal\ values\ (maybe\ input\ for\ desired\ number\ of\ sig\ figs)\r\n
+comment1.params=f
+comment1.target=java.lang.String\ powerRule(java.lang.String)
+comment1.text=\r\n\ Power\ rule\ \r\n
+comment10.params=f
+comment10.target=java.lang.String\ quotientRule(java.lang.String)
+comment10.text=\r\n\ quotient\ rule\ \r\n
+comment2.params=f
+comment2.target=java.lang.String\ constantRule(java.lang.String)
+comment2.text=\r\n\ Constant\ rule\r\n
+comment3.params=f
+comment3.target=java.lang.String\ coefficientRule(java.lang.String)
+comment3.text=\r\n\ Coefficient\ rule\r\n
+comment4.params=f
+comment4.target=java.lang.String\ sinRule(java.lang.String)
+comment4.text=\r\n\ trig\ rules\r\n
+comment5.params=f
+comment5.target=java.lang.String\ cosRule(java.lang.String)
+comment6.params=f
+comment6.target=java.lang.String\ tanRule(java.lang.String)
+comment7.params=f
+comment7.target=java.lang.String\ lnRule(java.lang.String)
+comment7.text=\ \r\n\ natural\ logarithm\ and\ logarithm\r\n
+comment8.params=f\ base
+comment8.target=java.lang.String\ logRule(java.lang.String,\ int)
+comment9.params=f
+comment9.target=java.lang.String\ productRule(java.lang.String)
+comment9.text=\r\n\ product\ rule\r\n
+numComments=11
